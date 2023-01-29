@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-style: monospace cursive;
+	color: #000000;
+}
+
+header {
+	margin: auto;
+	width: auto;
+}
+
+.title-head {
+	transform: translate(45px, -440px);
+	width: 450px;
+	font-size: 30px;
+}
+
+header figure {
+	background: url("../img/design1_image2.jpg");
+	height: 350px;
+	background-size: 100% 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 38px 45px 0 38px;
+}
+
+.nav-logo {
+	position: relative;
+	background-color: black;
+	margin: 10px 45px 0 40px;
+	width: auto;
+	height: 50px;
+}
+
+.calendary {
+	margin-bottom: 50px;
+}
+
+.calendary h2 {
+	transform: translate(568px, -70px);
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.principal {
+	width: 400px;
+}
+
+.navigator {
+	position: absolute;
+	top:15px;
+	left: 950px;
+	margin-top: 10px;
+}
+
+.navigator a {
+	padding: 10px;
+	margin: 10px;
+	background-color: #00FFFF;
+}
+
+.navigator a {
+	text-decoration: none;
+}
+
+.navigator a:hover {
+	text-decoration: underline;
+	transform: translate(15px, 0);
+	background-color: #FFF000;
+	width: fit-content;
+}
+
+section .section-list {
+	position: relative;
+	top: -20px;
+	left: 450px;
+	list-style: none;
+}
+
+#image_logo1 {
+	position: absolute;
+	top: 90px;
+	left: 60px;
+}
+
+header #image_logo1:hover {
+	transform: translate(15px, 0);
+	outline: auto;
+}
+
+.items-events {
+	margin-top: 15px;
+}
+
+.subLista {
+	list-style: none;
+	text-indent: 10px;
+}
+
+/*Estilos ABOUT*/
+.article{
+	margin-top: 20px;
+}
+#nav-about{
+	position: absolute;
+	top: 15px;
+}
+#subtitle-header {
+	transform: translate(600px, -70px);
+	text-transform: uppercase;
+	width: 450px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.titles-articles {
+	width: 550px;
+	position: relative;
+	bottom: 26px;
+	left: 350px;
+}
+ 
+/*Estilos Contactos*/
+
+.title-contact{
+	transform: translate(45px, -440px);
+	width: 450px;
+	font-size: 30px;
+	
+}
+
+.section-contact{
+	width: 800px;
+	position: relative;
+	left: 350px;
+	top: 30px;
+	
+}
+
+.titles-contact a {
+	background-color: #FFF000;
+}
+
+#subtitle-contact{
+	transform: translate(250px, -100px);
+	text-transform: uppercase;
+	width: 450px;
+	font-size: 20px;
+	color: #ffffff;
+}
+

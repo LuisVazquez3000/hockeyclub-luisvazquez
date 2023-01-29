@@ -39,12 +39,12 @@ header #image_logo1:hover{
 }
 
 #title_header{
-	transform: translate(0,-432px);
+	transform: translate(0,-440px);
 	width: 450px;
 	font-size: 30px;
 }
 .calendary h2{
-	transform: translate(170px, -249px);
+	transform: translate(170px, -251px);
 	text-transform: uppercase;
 	color: #FFFFFF;
 	/* display: none; */
@@ -118,7 +118,7 @@ section .section-list {
 }
 
 #subtitle-header{
-	transform: translate(180px,-78px);
+	transform: translate(480px,-249px);
 	text-transform: uppercase;
 	width: 450px;
 	font-size: 20px;
