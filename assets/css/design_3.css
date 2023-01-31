@@ -25,13 +25,13 @@ body{
 	position: relative;
 	left: 350px;
 	top: 65px;
-	text-transform: uppercase;
-	
-	
+	text-transform: uppercase;	
 }
+
 .nav-logo{
 	width: fit-content;
 }
+
 #image_logo1{
 	position: absolute;
 	top: 199px;
