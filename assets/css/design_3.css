@@ -8,6 +8,8 @@
 body{
 	background-image: url("../img/hockey_2.jpg");
 	background-size:100% 150%;
+	background-repeat: no-repeat;
+	opacity:1.5;
 	width: 600px;
 	height: 450px;
 }
@@ -16,15 +18,28 @@ body{
 .title-head{
 	position: relative;
 	left: 300px;
-	top: 37px;
+	top: 0;
 	font-size: 45px;
 	font-weight: bold;
 }
 
+
+.navigator ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	box-sizing: border-box;
+	
+}
+
+.navigator ul li{
+	width: 140px;
+}
+
 .navigator{
 	position: relative;
-	left: 350px;
-	top: 65px;
+	left: 180px;
+	top: 120px;
 	text-transform: uppercase;	
 }
 
@@ -34,12 +49,12 @@ body{
 
 #image_logo1{
 	position: absolute;
-	top: 199px;
+	top: 0;
 	left: 35px;
 }
 
 .nav-logo:hover{
-	transform: translate(0, -20px);
+	transform: translate(20px, 0);
 }
 
 .navigator a {
@@ -51,13 +66,14 @@ body{
 
 .navigator a:hover{
 	background-color: #FFF000;
-	padding: 5px;
+	padding:15px;
+	border: 1px solid black;
 }
 
 .calendary{
 	position: relative;
-	left: 350px;
-	top: 100px;
+	left: 400px;
+	top: 130px;
 	
 }
 
@@ -88,12 +104,24 @@ body{
 .titles-articles {
 	position: relative;
 	top: 100px;
-	left: 250px;
+	left: 435px;
+	background-color:lightblue;
+	opacity: 0.2;
+	box-shadow: 10px 40px 60px #000000;
+	padding: 15px	;
+	font-size: 17px;
+	font-weight: bold;
+	font-style:italic ;
 }
+.titles-articles:hover{
+	transition: all 500ms ease-out;
+	opacity: 1;
+}
+
 #subtitle-header{
 	position: relative;
 	top: 100px;
-	left: 370px;
+	left: 580px;
 	width: fit-content;
 	text-decoration:underline;
 	padding: 5px;
@@ -106,13 +134,20 @@ body{
 	margin-top: 15px;
 }
 
+#img-about{
+	position: absolute;
+	bottom: 42px;
+	left:184px;
+	
+}
+
 
 /*Estilos Contactos*/
 
 .title-contact{
 	position: relative;
 	left: 300px;
-	top: 37px;
+	top: 0;
 	font-size: 45px;
 	font-weight: bold;
 }
@@ -133,4 +168,56 @@ body{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	background-color: #FFF000;
+}
+
+#img-contact{
+	position: absolute;
+	top: 236px;
+	left: -500px;
+	
+}
+
+
+
+/*Estilos a imagen agregada de las tareas anteriores*/
+.container-image{
+	position: relative;
+	top: -30px;
+	left: -113px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.container-image img{
+	width: 220px;
+	height: 200px;
+	box-shadow:10px 20px 15px  #000000;
+}
+
+
+/*header-rules*/
+
+.container-rules{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+	align-items: center;
+	margin-top: 150px;
+	margin-left: 250px;
+	font-size: 15px;
+}
+.container-rules p{
+	width: 500px;
+	height: 100px;
+}
+.left_side{
+	width: 50%;
+	float: left;
+}
+.right_side{
+	margin-left: 250px;
+	width: 50%;
+	float: right;
 }
