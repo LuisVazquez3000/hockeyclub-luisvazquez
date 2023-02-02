@@ -61,18 +61,18 @@ body{
 	font-weight: bold;
 	margin-left: 15px;
 	text-decoration: underline;
-	padding: 10px;
+	padding: -12px;
 }
 
 .navigator a:hover{
 	background-color: #FFF000;
-	padding:15px;
+	padding:5px;
 	border: 1px solid black;
 }
 
 .calendary{
 	position: relative;
-	left: 400px;
+	left: 500px;
 	top: 130px;
 	
 }
@@ -82,7 +82,7 @@ body{
 	text-decoration:underline;
 	padding: 5px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	background-color: #FFF000;
 }
 
@@ -97,6 +97,9 @@ body{
 .subLista{
 	list-style: none;
 	text-indent: 15px;
+	background-color: #FFF000;
+	border: 1px dashed black;
+	width: max-content;
 }
 
 /*Estilos About*/
@@ -104,7 +107,7 @@ body{
 .titles-articles {
 	position: relative;
 	top: 100px;
-	left: 435px;
+	left: 475px;
 	background-color:lightblue;
 	opacity: 0.2;
 	box-shadow: 10px 40px 60px #000000;
@@ -137,7 +140,7 @@ body{
 #img-about{
 	position: absolute;
 	bottom: 42px;
-	left:184px;
+	left:60px;
 	
 }
 
@@ -153,15 +156,22 @@ body{
 }
 
 .titles-contact{
+	width: max-content	;
+	background-color: aqua;
 	position: relative;
 	top: 140px;
-	left: 350px;
+	left: 550px;
+	box-shadow: 1px 1px 1px 0px black;
+}
+.titles-contact h4{
+	padding: 5px;
+	color: #000000;
 }
 
 #subtitle-contact{
 	position: relative;
 	top: 104px;
-	left: 367px;
+	left: 617px;
 	width: fit-content;
 	text-decoration:underline;
 	padding: 5px;
@@ -173,7 +183,7 @@ body{
 #img-contact{
 	position: absolute;
 	top: 236px;
-	left: -500px;
+	left: 51px;
 	
 }
 
@@ -183,41 +193,66 @@ body{
 .container-image{
 	position: relative;
 	top: -30px;
-	left: -113px;
-	width: 100%;
+	left: 35px;
+	width: 350px;
 	display: flex;
 	justify-content: center;
 	align-items:center;
 }
 .container-image img{
-	width: 220px;
+	width: 350px;
 	height: 200px;
-	box-shadow:10px 20px 15px  #000000;
+	padding-left: 0px;
+	box-shadow:0 20px 15px  #000000;
 }
 
 
 /*header-rules*/
 
 .container-rules{
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
+	border-style:inset;
+	padding: 15px;
+	padding-left: 20px;
+	background: #000000;
+	opacity: 0.8;
+	color: lightblue;
 	text-align: justify;
-	align-items: center;
-	margin-top: 150px;
-	margin-left: 250px;
-	font-size: 15px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	top: 100px;
+	left: 150px;
 }
-.container-rules p{
-	width: 500px;
-	height: 100px;
+.order-list, .fields_age_groups, .section_allPay, .ihf_fields{
+	margin-top: 10px;
 }
-.left_side{
-	width: 50%;
-	float: left;
+.unorder-list ul{
+	list-style-type: square;
 }
-.right_side{
-	margin-left: 250px;
-	width: 50%;
-	float: right;
+
+.container-table{
+position: relative;
+top: 65px;
+left: 200px;
+}
+
+.listas_ord{
+	text-indent: 10px;
+}
+
+.order-list li{
+	margin-top: 10px;
+}
+
+h4, span{
+	text-decoration: underline;
+	color: aliceblue;
+}
+
+table{
+	border-spacing: 29px;
+}
+table th, table td{
+	text-align: center;
 }
