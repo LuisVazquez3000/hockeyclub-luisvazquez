@@ -226,7 +226,7 @@ img{
 
 .container-rules{
 	border-style:inset;
-	padding: 10px;
+	padding: 2px;
 	padding-left: 20px;
 	background: #000000;
 	opacity: 0.8;
@@ -236,7 +236,7 @@ img{
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
-	top: 100px;
+	top: 110px;
 	left: 150px;
 }
 .order-list, .fields_age_groups, .section_allPay, .ihf_fields{
@@ -246,7 +246,9 @@ img{
 	list-style-type: square;
 }
 
-
+h4{
+	margin-bottom: 5px;
+}
 /*Estilos Tablas*/
 
 .container-table{
@@ -282,7 +284,7 @@ table th, table td {
 }
 
 tr:hover{
-	background-color: aqua;
+	background-color: yellow;
 }
 
 .title-games{
