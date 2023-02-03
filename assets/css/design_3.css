@@ -55,6 +55,7 @@ body{
 
 .nav-logo:hover{
 	transform: translate(20px, 0);
+	cursor: pointer;
 }
 
 .navigator a {
@@ -67,7 +68,7 @@ body{
 .navigator a:hover{
 	background-color: #FFF000;
 	padding:5px;
-	border: 1px solid black;
+	border: 1px dashed black;
 }
 
 .calendary{
@@ -108,7 +109,7 @@ body{
 	position: relative;
 	top: 100px;
 	left: 475px;
-	background-color:lightblue;
+	background-color:yellow;
 	opacity: 0.2;
 	box-shadow: 10px 40px 60px #000000;
 	padding: 15px	;
@@ -140,8 +141,12 @@ body{
 #img-about{
 	position: absolute;
 	bottom: 42px;
-	left:60px;
+	left:20px;
 	
+}
+
+article > h3{
+	text-decoration: underline;
 }
 
 
@@ -157,12 +162,19 @@ body{
 
 .titles-contact{
 	width: max-content	;
-	background-color: aqua;
+	padding: 5px;
 	position: relative;
 	top: 140px;
 	left: 550px;
 	box-shadow: 1px 1px 1px 0px black;
 }
+.titles-contact:hover{
+	
+	background-color: yellow;
+	border: 1px dashed black;
+	cursor: pointer;
+}
+
 .titles-contact h4{
 	padding: 5px;
 	color: #000000;
@@ -206,16 +218,19 @@ body{
 	box-shadow:0 20px 15px  #000000;
 }
 
+img{
+	border-radius: 5%;
+}
 
-/*header-rules*/
+/*Estilos-rules*/
 
 .container-rules{
 	border-style:inset;
-	padding: 15px;
+	padding: 10px;
 	padding-left: 20px;
 	background: #000000;
 	opacity: 0.8;
-	color: lightblue;
+	color: yellow;
 	text-align: justify;
 	width: 1000px;
 	display: flex;
@@ -231,8 +246,13 @@ body{
 	list-style-type: square;
 }
 
+
+/*Estilos Tablas*/
+
 .container-table{
 position: relative;
+width: 1000px;
+height: 300px;
 top: 65px;
 left: 200px;
 }
@@ -251,8 +271,53 @@ h4, span{
 }
 
 table{
-	border-spacing: 29px;
+	margin-top: 5px;
+	border-spacing: 10px;
 }
 table th, table td{
 	text-align: center;
+}
+table th, table td {
+	width: 100px;
+}
+
+tr:hover{
+	background-color: aqua;
+}
+
+.title-games{
+	position: relative;
+	top: 60px;
+	left: 270px;
+}
+.title-games h3{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.title-games h4{
+	color: #000000;
+	font-size:15px ;
+	margin-top: 10px;
+}
+
+.footer_information1 span, .footer_information2 span{
+	color: #000000;
+	font-weight: bold;
+}
+.footer_information1 p, .footer_information2 p{
+	margin-top: 10px;
+}
+
+.footer_information1, .footer_information2{
+	background-color: #FFF000;
+	opacity: var(#000000,#FFFFFF);
+	padding: 5px;
+	max-width: 500px;
+	position: relative;
+	left:550px;
+	bottom: 250px;
+	
+}
+.footer_information2 {
+	margin-top: 20px;
 }
