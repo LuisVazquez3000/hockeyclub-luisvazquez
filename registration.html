@@ -18,19 +18,19 @@
 				<legend>Personal Information</legend>
 				<div class="completeName">
 					<label for="name">Player's First Name:
-					<input type="text" name="name" id="name"></label>
+						<input type="text" name="name" id="name"></label>
 					<label for="lastName">Last Name
-					<input type="text" name="lastName" id="lastName"></label>
+						<input type="text" name="lastName" id="lastName"></label>
 				</div>
 				<div class="cityName">
 					<label for="city">City:
-					<input type="city" name="city"></label>
+						<input type="city" name="city"></label>
 					<label for="postalCode">Zip Code:
-					<input type="text" id="postalCode" name="postalCode"></label>
+						<input type="text" id="postalCode" name="postalCode"></label>
 				</div>
 				<div class="address">
 					<label for="adress">Street Adress
-					<input type="text" name="adress" id="adress"></label>
+						<input type="text" name="adress" id="adress"></label>
 					<label for="birthDate">Birth Date</label>
 					<input type="date" name="birthDate" id="birthDate">
 				</div>
@@ -44,37 +44,41 @@
 				<label for="others">Others</label>
 				<input type="radio" id="others" name="gender">
 			</fieldset>
-			<fieldset>
+			<fieldset class="education-grade">
 				<legend>Education-Grade: </legend>
-				<input type="radio" id="preGrade" name="grade">
-				<label for="preGrade">Pre-School</label>
-				<input type="radio" id="first" name="grade">
-				<label for="first">1st</label>
-				<input type="radio" id="second" name="grade">
-				<label for="second">2nd</label>
-				<input type="radio" id="thirst" name="grade">
-				<label for="male">3rd</label>
-				<input type="radio" id="fourth" name="grade">
-				<label for="male">4th</label>
-				<input type="radio" id="fith" name="grade">
-				<label for="male">5th</label>
+				<select name="grade" id="grade">
+					<option value="">Pre-School</option>
+					<option value="first">1st</option>
+					<option value="second">2nd</option>
+					<option value="third">3rd</option>
+					<option value="fourth">4th</option>
+					<option value="fifth">5th</option>
+				</select>
 			</fieldset>
-			<fieldset>
+			<fieldset class="cities">
 				<legend>Which elementary school do you live near?</legend>
 				<legend>Closest School: </legend>
-				<div class="firstColumn">
+				<div class="city_1">
 					<input type="radio" id="preGrade" name="grade">
 					<label for="preGrade">Aj Katzenmaier</label>
+				</div>
+				<div class="city_1">
 					<input type="radio" id="first" name="grade">
 					<label for="first">Greenbay</label>
+				</div>
+				<div class="city_1">
 					<input type="radio" id="second" name="grade">
 					<label for="second">Howard A Yeagar</label>
 				</div>
-				<div class="secondColumn">
+				<div class="city_1">
 					<input type="radio" id="thirst" name="grade">
 					<label for="male">Marjorie P Hart</label>
+				</div>
+				<div class="city_1">
 					<input type="radio" id="fourth" name="grade">
 					<label for="male">North Elementary</label>
+				</div>
+				<div class="city_1">
 					<input type="radio" id="fith" name="grade">
 					<label for="male">South Elementary</label>
 				</div>
@@ -90,22 +94,36 @@
 				<input type="checkbox" id="goalkeeper">
 				<label for="goalkeeper">Goalkeeper</label>
 			</fieldset>
-			<fieldset>
+			<fieldset class="container-uniform">
 				<legend>Uniform Size</legend>
-				<input type="radio" id="youthSmal" name="size_uni">
-				<label for="youthSmal">Youth Smal</label>
-				<input type="radio" id="youthMedium" name="size_uni">
-				<label for="youthMedium">Youth Medium</label>
-				<input type="radio" id="youthLarge" name="size_uni">
-				<label for="youthLarge">Youth Large</label>
-				<input type="radio" id="small" name="size_uni">
-				<label for="small">Small</label>
-				<input type="radio" id="medium" name="size_uni">
-				<label for="medium">Medium</label>
-				<input type="radio" id="large" name="size_uni">
-				<label for="large">Large</label>
-				<input type="radio" id="elarge" name="size_uni">
-				<label for="elarge">Extra Large</label>
+				<div class="box">
+					<input type="radio" id="youthSmal" name="size_uni">
+					<label for="youthSmal">Youth Smal</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="youthMedium" name="size_uni">
+					<label for="youthMedium">Youth Medium</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="youthLarge" name="size_uni">
+					<label for="youthLarge">Youth Large</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="small" name="size_uni">
+					<label for="small">Small</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="medium" name="size_uni">
+					<label for="medium">Medium</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="large" name="size_uni">
+					<label for="large">Large</label>
+				</div>
+				<div class="box">
+					<input type="radio" id="elarge" name="size_uni">
+					<label for="elarge">Extra Large</label>
+				</div>
 			</fieldset>
 			<fieldset>
 				<legend>Permission to Play</legend>
@@ -119,7 +137,8 @@
 					against any claim by or on behalf of the registrant as a result of the registrant's participation in the
 					programand
 					orbeing transported to or from MDHL sponsored activities, which transportation.
-					By signing below, I hereby agree and authorize the above. In addition, By entering your name below, all knowledge that I
+					By signing below, I hereby agree and authorize the above. In addition, By entering your name below, all
+					knowledge that I
 					have read
 					the cancellation policy and agree to its terms.
 				</p>

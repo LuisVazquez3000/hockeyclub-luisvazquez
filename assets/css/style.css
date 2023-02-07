@@ -167,13 +167,11 @@
 	position: fixed;
 	z-index: 1;
 }
-
-/*Estilos Game Info*/
-
 .container-table{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	/* margin-top: 200px; */
 }
 .title-games{
 	display: flex;
@@ -242,6 +240,7 @@ form{
 	display: flex;
 	flex-direction: column;
 	width: 750px;
+	height: fit-content;
 	margin: auto;
 	gap: 10px;
 	background-color: #55ac99;
@@ -249,6 +248,7 @@ form{
 }
 
 fieldset{
+	margin: 0 10px;
 	padding: 10px;
 }
 fieldset p{
@@ -257,9 +257,12 @@ fieldset p{
 .container_btn{
 	display: flex;
 	justify-content: space-around;
+	align-items: baseline;
 	border: 2px solid #55ac99;
 }
 .container_btn button{
+	border-radius: 10%;
+	background-color: #FFF000;
 	padding: 10px;
 }
 
@@ -268,7 +271,6 @@ fieldset p{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
 .completeName, .cityName, .address, .birth{
 	margin-top: 10px;
 	padding: 5px;
@@ -280,4 +282,25 @@ fieldset p{
 }
 .completeName, .cityName, .address, .birth  input:focus{
 	border-color: rgb(231, 13, 13);
+}
+.education-grade{
+	/* text-align: center; */
+	margin-bottom: 10px;
+}
+.education-grade select{
+	width: 200px;
+}
+.container-uniform{
+	display: flex;
+	flex-direction: column;
+}
+.cities{
+	display: flex;
+	flex-direction: column;
+}
+.city_1, .box{
+	margin-top: 5px;
+}
+.city_1 label, .box label{
+	margin-left: 10px;
 }
